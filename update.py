@@ -2,7 +2,7 @@ import requests
 from zipfile import ZipFile
 import os
 
-url = 'http://fern.fun/update/update.zip'
+url = ''
 r = requests.get(url, allow_redirects=True)
 print(r.headers.get('content-type'))
 
